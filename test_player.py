@@ -9,7 +9,7 @@ def main():
         print("")
 
     game_board = Tabuleiro() 
-    game_board.adicionarPecaInicial((6,6)) #pq caralhos esta porra adiciona 3 peças?
+    game_board.adicionarPecaInicial((6,6)) #TODO - Modificar funcao (no momento adiciona 3)
     Player.checkDuploSeis(lista_jogadores)
     #TODO - FORÇAR O JOGADOR COM O DUPLO SEIS A SER O PRIMEIRO A JOGAR A PEÇA
 
